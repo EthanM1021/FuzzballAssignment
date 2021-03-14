@@ -1,0 +1,62 @@
+body {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #CFD8DC;
+}
+
+.text_default {
+	font-family: 'Anton', sans-serif;
+	font-size: 20vw;
+}
+
+.text_title {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 40vw;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#viewport_container {
+	position: relative;
+	left: 0px;
+	top: -280px;
+	
+}
+
+#amount {
+	color: rgb(255, 255, 255);
+	font-size: 2.5rem;
+	position: relative;
+	top: 240px;
+	margin-right: 750px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Bungee Shade', cursive;
+}
+
+#status {
+	position: relative;
+	font-size: 2.5rem;
+	left: 550px;
+	font-family: 'Bungee Shade', cursive;
+	color: white;
+	top: 105px;
+}
+
+.controller {
+	position: relative;
+	top: -260px;
+	right: 150px;
+	display: flex;
+}
+
+#reset {
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
